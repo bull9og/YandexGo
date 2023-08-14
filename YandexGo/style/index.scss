@@ -19,10 +19,8 @@ body {
 	background: #FFDE40;
 	padding-top: 77px;
 }
-.mainContainer {
+.container {
 	max-width: 954px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
 	margin: 0 auto;
 }
 
@@ -319,6 +317,58 @@ body {
 		}
 	}
 }
+.section5 {
+	margin-top: 128px;
+	padding: 128px 0 256px;
+	padding: 128px 0 256px;
+    border-radius: 56px 56px 0 0;
+    background-image: url(https://avatars.mds.yandex.net/get-lpc/1220100/c037c01e-64d2-48df-811b-d149f760df61/orig), url(https://avatars.mds.yandex.net/get-lpc/1520633/9096a05f-4bc8-450a-80ab-68f4b8cb28a4/orig);
+    background-repeat: no-repeat;
+    background-size: 513px auto, 100%;
+    background-position: top 84px left calc(50% + 385px), center bottom;
+    position: relative;
+    margin-top: 128px;
+	.section5_informContainer {
+		.section5_informContainer_title {
+			font-family: 'YandexSansTextRegular-900';
+			font-size: 84px;
+			line-height: 88px;
+			max-width: 580px;
+			margin: 0;
+			color: #21201F;
+		}
+		.section5_informContainer_desc {
+			font-family: 'YandexSansTextRegular-600';
+			font-size: 32px;
+			line-height: 41.6px;
+			padding-top: 32px;
+			max-width: 700px;
+			color: #21201F;
+		}
+	}
+	.section5_freeStart {
+		margin-top: 64px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		align-items: start;
+		.section5_freeStartCard {
+			h2 {
+				font-family: 'YandexSansTextRegular-900';
+				font-size: 32px;
+				line-height: 32px;
+				color: #21201F;
+			}
+			p {
+				font-family: 'YandexSansTextRegular-600';
+				font-size: 22px;
+				line-height: 28.6px;
+				color: #21201F;
+				margin-top: 8px;
+			}
+		}
+	}
+}
+
 
 
 .footer {

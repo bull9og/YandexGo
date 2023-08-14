@@ -408,7 +408,7 @@ body {
 
 .section3 {
   margin-top: 100px;
-  margin-bottom: 200px;
+  margin-bottom: 90px;
 }
 .section3 .section3_title {
   margin-bottom: 100px;
@@ -453,6 +453,112 @@ body {
 }
 .section3 .section3_infContainer .section3_videoPhone {
   width: 362px;
+}
+
+.section4 .section4_title {
+  color: #ffffff;
+  line-height: 44px;
+  font-family: "YandexSansTextRegular-900";
+  font-size: 40px;
+  text-align: center;
+  padding: 50px 64px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 56px;
+  background: #21201f;
+  margin-bottom: 48px;
+}
+.section4 .section4_tarifCardsContainer {
+  display: grid;
+  grid-template-columns: 520px 450px;
+  grid-gap: 35px;
+}
+.section4 .section4_tarifCardsContainer .section4_tarifCardTitle {
+  font-family: "YandexSansTextRegular-900";
+  font-size: 36px;
+  line-height: 38.52px;
+  color: #21201F;
+}
+.section4 .section4_tarifCardsContainer .section4_tarifCardDesc {
+  font-family: "YandexSansTextRegular-600";
+  font-size: 22px;
+  line-height: 26.4px;
+  color: #21201F;
+  margin-top: 32px;
+}
+.section4 .section4_tarifCardsContainer .section4_tarifCard-solid {
+  text-align: left;
+  border-radius: 56px;
+  border: 5px solid #21201f;
+  padding: 72px 56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 35px;
+}
+.section4 .section4_tarifCardsContainer .section4_tarifCard-solid img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 32px;
+}
+.section4 .section4_tarifCardsContainer .section_tarifCard_img {
+  width: 100%;
+  height: 100%;
+}
+.section4 .section4_tarifCardsContainer .section4_tarifCard-dashed {
+  text-align: left;
+  border-radius: 56px;
+  border: 5px dashed #21201f;
+  padding: 72px 56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 35px;
+}
+.section4 .section4_tarifCardsContainer .section4_tarifCard-img {
+  border-radius: 56px;
+  border: 5px solid #21201f;
+  overflow: hidden;
+}
+.section4 .section4_tarifCardsContainer .section4_tarifCard-img img {
+  width: 100%;
+  height: 100%;
+}
+.section4 .section4_tarifCardsContainer .section4_tarifCard-black {
+  background-color: #21201f;
+  border-radius: 56px;
+  padding: 79px 59px;
+  width: 680px;
+}
+.section4 .section4_tarifCardsContainer .section4_tarifCard-black h1 {
+  font-family: "YandexSansTextRegular-900";
+  font-size: 36px;
+  line-height: 38.52px;
+  color: #ffffff;
+}
+.section4 .section4_tarifCardsContainer .section4_tarifCard-black p {
+  font-family: "YandexSansTextRegular-600";
+  font-size: 22px;
+  line-height: 26.4px;
+  color: #ffffff;
+  margin-top: 32px;
+}
+.section4 .section4_tarifCardsContainer .section4_tarifCardsContainer_right {
+  margin-top: 100px;
 }
 
 .footer {

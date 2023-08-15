@@ -11,6 +11,7 @@
 body {
 	min-height: 100%;
 	max-width: 100%;
+	overflow-x: hidden;
 	display: flex;
 	flex-direction: column;
 }
@@ -20,8 +21,9 @@ body {
 	padding-top: 77px;
 }
 .container {
-	max-width: 954px;
+	max-width: 1020px;
 	margin: 0 auto;
+	padding: 0 30px;
 }
 
 
@@ -319,8 +321,7 @@ body {
 }
 .section5 {
 	margin-top: 128px;
-	padding: 128px 0 256px;
-	padding: 128px 0 256px;
+	padding: 128px 0 128px;
     border-radius: 56px 56px 0 0;
     background-image: url(https://avatars.mds.yandex.net/get-lpc/1220100/c037c01e-64d2-48df-811b-d149f760df61/orig), url(https://avatars.mds.yandex.net/get-lpc/1520633/9096a05f-4bc8-450a-80ab-68f4b8cb28a4/orig);
     background-repeat: no-repeat;
@@ -368,6 +369,189 @@ body {
 		}
 	}
 }
+.section6 {
+	width: 100%;
+	background: #FFDE40;
+	padding: 160px 0 60px;
+	.section6_videoContainer {
+		max-width: 1000px;
+		margin-right: -206px;
+		margin-bottom: -90px;
+		margin-left: auto;
+		.section6_videoContainer_video {
+			max-width: 734px;
+			margin: 0 auto;
+			video {
+				border-radius: 32px;
+   				overflow: hidden;
+				max-width: 734px;
+				margin: 0 auto;
+			}
+		}
+	}
+	.section6_rideCarefully {
+		padding: 150px 85px 230px;
+		margin: 0 auto 0 -80px;
+		background: #FFFFFF;
+		border-radius: 56px;
+		.section6_rideCarefully_title {
+			h1 {
+				font-family: 'YandexSansTextRegular-900';
+				line-height: 70.4px;
+				font-size: 64px;
+				color: #21201F;
+			}
+			p {
+				margin: 16px 0 71px;
+				width: 460px;
+				font-family: 'YandexSansTextRegular-600';
+				font-size: 22px;
+				line-height: 26px;
+				color: #21201F;
+				a {
+					text-decoration: underline;
+					color: #21201F;
+				}
+			}
+		}
+		.section6_rideCarefully_carefullCards {
+			display: grid;
+			grid-template-columns: 350px 350px;
+			grid-gap: 100px;
+			.section6_rideCarefully_carefullCards_card {
+				img {
+					margin-bottom: 24px;
+				}
+				h2 {
+					font-size: 36px;
+					font-family: 'YandexSansTextRegular-900';
+					line-height: 39.6px;
+				}
+				p {
+					margin-top: 8px;
+					font-size: 22px;
+					font-family: 'YandexSansTextRegular-600';
+					line-height: 28px;
+				}
+			}
+		}
+	}
+	.section6_rideCarefully_lifeInsurance {
+		position: relative;
+		background-color: #BFFFCD;
+		box-sizing: border-box;
+		display: block;
+		width: 652px;
+		padding: 85px 94px;
+		border-radius: 56px;
+		margin-top: -115px;
+		margin-right: calc((100% - 1106px)/2);
+		margin-left: auto;
+		margin-bottom: 128px;
+		&::after {
+			content: "";
+			width: 112px;
+			height: 112px;
+			display: block;
+			position: absolute;
+			top: -53px;
+			left: 94px;
+			background-image: url(https://avatars.mds.yandex.net/get-lpc/1527204/e5defd8c-21da-4597-beb9-838f435304a6/orig);
+			background-repeat: no-repeat;
+			background-size: 100% auto;
+		}
+		p {
+			font-size: 32px;
+			line-height: 42px;
+			font-family: 'YandexSansTextRegular-600';
+			width: 400px;
+		}
+	}
+}
+.section7 {
+	background-color: #ffffff;
+    border-radius: 56px 56px 0 0;
+    padding-top: 128px;
+	.section7Container {
+		position: relative;
+		&::before {
+			content: '';
+			display: block;
+			width: 548px;
+			height: 183px;
+			border-radius: 56px 56px 0 0;
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			background-color: #21201F;
+			z-index: 1;
+		}
+		&::after {
+			content: '';
+			display: block;
+			width: 100%;
+			height: 108px;
+			border-radius: 56px 56px 0 0;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			background-color: #FFDE40;
+			z-index: 2;
+		}
+	}
+	.section7_whereScooters {
+		margin-bottom: 30px;
+		.section7_whereScooters_info {
+			text-align: left;
+			padding-right: 17px;
+			padding-left: 17px;
+			margin-bottom: 72px;
+			h1 {
+				font-family: 'YandexSansTextRegular-900';
+				line-height: 70px;
+				font-size: 64px;
+				color: #21201f;
+			}
+			p {
+				font-family: 'YandexSansTextRegular-600';
+				line-height: 42px;
+				font-size: 32px;
+				margin-top: 32px;
+			}
+		}
+		img {
+			width: 100%;
+			height: 100%;
+		}
+	}
+	.section7_download {
+		padding-top: 100px;
+		display: flex;
+		align-items: start;
+		justify-content: space-between;
+		.section7_download_inf {
+			h1 {
+				font-family: 'YandexSansTextRegular-900';
+				line-height: 70px;
+				font-size: 64px;
+				color: #21201f;
+			}
+			p {
+				font-family: 'YandexSansTextRegular-600';
+				line-height: 42px;
+				font-size: 32px;
+				margin: 32px 0 48px;
+			}
+		}
+		.section7_download_telephone {
+			position: relative;
+			z-index: 10;
+			img {
+				max-width: 362px;
+			}
+		}
+	}
+}
 
 
 
@@ -406,4 +590,102 @@ body {
 			}
 		}
 	}
+}
+
+
+
+/* Слайдер */
+.slick-slider{
+	position: relative;
+}
+/* Ограничивающая оболочка */
+.slick-list {
+	max-width: 734px;
+	margin: 0 auto;
+}
+/* Лента слайдов */
+.slick-track{
+	display: flex;
+}
+/* Стрелка влево */
+.slick-arrow.slick-prev{
+	position: absolute;
+	font-size: 0;
+	background: url('../img/arrow-back.svg');
+	width: 64px;
+    height: 64px;
+	background-size: 100% auto;
+    background-repeat: no-repeat;
+	z-index: 100;
+    top: 50%;
+	left: 0;
+	margin-top: -30px;
+}
+/* Стрелка вправо */
+.slick-arrow.slick-next{
+	position: absolute;
+	font-size: 0;
+	background: url('../img/arrow-next.svg');
+	width: 64px;
+    height: 64px;
+	background-size: 100% auto;
+    background-repeat: no-repeat;
+	z-index: 10;
+    top: 50%;
+	right: 0;
+	margin-top: -30px;
+}
+/* Стрелка не активная */
+.slick-arrow.slick-next.slick-disabled{
+	position: absolute;
+	font-size: 0;
+	background: url('../img/arrow-next-dis.svg');
+	width: 64px;
+    height: 64px;
+	background-size: 100% auto;
+    background-repeat: no-repeat;
+	z-index: 10;
+    top: 50%;
+	right: 0;
+	margin-top: -30px;
+}
+/* Стрелка не активная */
+.slick-arrow.slick-prev.slick-disabled{
+	position: absolute;
+	font-size: 0;
+	background: url('../img/arrow-back-dis.svg');
+	width: 64px;
+    height: 64px;
+	background-size: 100% auto;
+    background-repeat: no-repeat;
+	z-index: 10;
+    top: 50%;
+	left: 0;
+	margin-top: -30px;
+}
+/* Точки (булиты) */
+.slick-dots{
+	position: absolute;
+	display: flex;
+	align-items: center;
+	margin-top: 15px;
+	left: 50%;
+    line-height: normal;
+    transform: translate(-50%);
+}
+.slick-dots li{
+	opacity: 0.6;
+}
+/* Активная точка */
+.slick-dots li.slick-active{
+	opacity: 1;
+}
+/* Элемент точки */
+.slick-dots li button{
+	font-size: 0;
+	margin: 0 4px;
+    width: 8px;
+    height: 8px;
+	background-color: #21201F;
+	border-radius: 50%;
 }

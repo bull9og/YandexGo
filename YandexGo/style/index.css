@@ -260,7 +260,7 @@ body {
   margin-right: 0;
 }
 .header .headerContainer .headerMenu li a {
-  color: #21201f;
+  color: #21201f !important;
   font-family: "YandexSansTextRegular-600";
   font-size: 16px;
   line-height: 30px;
@@ -270,7 +270,7 @@ body {
   background: #21201F;
   line-height: 45px;
   font-family: "YandexSansTextRegular-600";
-  color: #ffffff;
+  color: #ffffff !important;
   font-size: 20px;
   border-radius: 18px;
   -webkit-transition: 200ms;
@@ -323,7 +323,7 @@ body {
   font-size: 24px;
   line-height: 80px;
   background: #21201F;
-  color: #ffffff;
+  color: #ffffff !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -386,7 +386,7 @@ body {
   margin-right: 0;
 }
 .section2 .section2_menu li a {
-  color: #21201F;
+  color: #21201F !important;
   background: transparent;
   border: 2px dashed #21201F;
   border-radius: 16px;
@@ -653,7 +653,7 @@ body {
 }
 .section6 .section6_rideCarefully .section6_rideCarefully_title p a {
   text-decoration: underline;
-  color: #21201F;
+  color: #21201F !important;
 }
 .section6 .section6_rideCarefully .section6_rideCarefully_carefullCards {
   display: grid;
@@ -824,7 +824,7 @@ body {
   max-width: 600px;
 }
 .footer .footerContainer .footerLicense a {
-  color: #21201f;
+  color: #21201f !important;
   font-size: 13px;
   font-family: "YandexSansTextRegular-600";
   line-height: 16px;

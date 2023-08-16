@@ -735,7 +735,7 @@ body {
   border-radius: 56px 56px 0 0;
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: -40px;
   background-color: #FFDE40;
   z-index: 2;
 }
@@ -791,6 +791,7 @@ body {
 .section7 .section7_download .section7_download_telephone {
   position: relative;
   z-index: 10;
+  margin-right: 80px;
 }
 .section7 .section7_download .section7_download_telephone img {
   max-width: 362px;
